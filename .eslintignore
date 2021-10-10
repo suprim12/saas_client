@@ -1,0 +1,14 @@
+/dist
+/build
+/coverage
+/node_modules
+/tools
+/devops
+.storybook
+/coverage
+/nginx
+/.husky
+/.vscode
+/uploads
+config-overrides.js
+stories
