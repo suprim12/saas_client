@@ -4,11 +4,11 @@ Combine [Create React App](https://github.com/facebook/create-react-app) with [T
 
 ### Features
 
-- Typesafe 
+- Typesafe
 - Supports unit testing
 - Storybook (UI/Components Testing)
 - Eslint
-- Absolute path 🔥 (Comming Soon)
+- Absolute path 🔥
 
 ### Dockerize FrontEnd For Development
 

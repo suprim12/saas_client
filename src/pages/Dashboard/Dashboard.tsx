@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { DashboardLayout } from "../../components";
+import { DashboardLayout } from "@comp";
 import { postSagaActions } from "../../core/sagas/sagaActions";
 import { useAppDispatch } from "../../core/store";
 
