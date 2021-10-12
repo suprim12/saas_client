@@ -4,7 +4,7 @@
 echo '🏗️👷 testing and building your project before committing'
 
 # Check ESLint Standards
- yarn run lint
+ yarn lint ||
  (
          echo '😤🏀👋😤  ESLint Check Failed. Make the required changes listed above, add changes and try to commit again. 😤🏀👋😤 '
          false;
