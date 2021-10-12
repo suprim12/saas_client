@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@comp": ["./src/components/index.ts"]
+    }
+  }
+}

@@ -1,11 +1,13 @@
-require("dotenv");
-const { aliasJest, configPaths, alias } = require("react-app-rewire-alias");
+const path = require("path");
 
-const aliasMap = configPaths("./tsconfig.base.json");
+module.exports = function override(config) {
+  config.resolve = {
+    ...config.resolve,
+    alias: {
+      ...config.alias,
+      "@comp": path.resolve(__dirname, "src/components/index.ts"),
+    },
+  };
 
-module.exports = function override(config, env) {
-  const newConfig = alias(aliasMap)(config, env);
-  newConfig.output.publicPath = process.env.PUBLIC_URL;
-  return newConfig;
+  return config;
 };
-module.exports.jest = aliasJest(aliasMap);
