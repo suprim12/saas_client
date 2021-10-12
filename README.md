@@ -1,4 +1,4 @@
-# Create SaaS React Typescript App 🚀
+# Create SaaS React App 🚀
 
 Combine [Create React App](https://github.com/facebook/create-react-app) with [Typescript](https://www.typescriptlang.org/) and [Eslint](https://eslint.org/)
 
@@ -6,9 +6,10 @@ Combine [Create React App](https://github.com/facebook/create-react-app) with [T
 
 - Typesafe
 - Supports unit testing
-- Storybook (UI/Components Testing)
-- Eslint
+- Storybook
+- Eslint, Husky
 - Absolute path 🔥
+- PWA with Workbox (Comming Soon)
 
 ### Dockerize FrontEnd For Development
 
