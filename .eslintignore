@@ -12,3 +12,7 @@
 /uploads
 config-overrides.js
 stories
+ser
+serviceWorker.js
+service-worker.ts
+serviceWorkerRegistration.ts

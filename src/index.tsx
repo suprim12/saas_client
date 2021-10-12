@@ -8,6 +8,7 @@ import reportWebVitals from "./reportWebVitals";
 import store from "./core/store";
 import "./styles/main.scss";
 import "./styles/antd/index.css";
+import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -19,5 +20,7 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById("root")
 );
+
+serviceWorkerRegistration.register();
 
 reportWebVitals();
