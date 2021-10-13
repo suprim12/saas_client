@@ -9,7 +9,7 @@ Combine [Create React App](https://github.com/facebook/create-react-app) with [T
 - Storybook
 - Eslint, Husky
 - Absolute path 🔥
-- PWA with Workbox (Comming Soon)
+- PWA with Workbox
 
 ### Dockerize FrontEnd For Development
 
