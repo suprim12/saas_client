@@ -15,4 +15,5 @@ stories
 ser
 serviceWorker.js
 service-worker.ts
+service-worker.js
 serviceWorkerRegistration.ts
