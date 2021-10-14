@@ -2,7 +2,9 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@comp": ["./src/components/index.ts"]
+      "@comp": ["./src/components/index.ts"],
+      "@routes": ["./src/routes/index.ts"],
+      "@core": ["./src/core/index.ts"]
     }
   }
 }

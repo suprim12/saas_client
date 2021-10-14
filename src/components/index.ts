@@ -1,5 +1,5 @@
-import Header from "./Header/Header";
-import ProtectedRoute from "./GuardRoutes/ProtectedRoute";
-import DashboardLayout from "./Hoc/DashboardLayout";
+import Header from "./common/Header/Header";
+import ProtectedRoute from "../routes/ProtectedRoute";
+import DashboardLayout from "./layout/DashboardLayout";
 
 export { Header, ProtectedRoute, DashboardLayout };

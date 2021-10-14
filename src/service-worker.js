@@ -88,6 +88,15 @@ registerRoute(
   })
 );
 
+registerRoute(
+  ({ request }) =>
+    request.destination === "script" || request.destination === "style",
+  new StaleWhileRevalidate({
+    cacheName: "static-resources",
+    plugins: [new ExpirationPlugin({ maxEntries: 50 })],
+  })
+);
+
 self.addEventListener("message", (event) => {
   if (event.data && event.data.type === "SKIP_WAITING") {
     self.skipWaiting();

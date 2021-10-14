@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { DashboardLayout } from "@comp";
-import { postSagaActions } from "../../core/sagas/sagaActions";
-import { useAppDispatch } from "../../core/store";
+import { useAppDispatch, postSagaActions } from "@core";
 
 const Home: React.FC = () => {
   const dispatch = useAppDispatch();
